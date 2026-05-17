@@ -41922,6 +41922,7 @@ export type GetOrganizationResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -42027,6 +42028,7 @@ export type GetAppearanceSettingsResponses = {
         logoDark: string | null;
         favicon: string | null;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         appName: string | null;
         ogDescription: string | null;
         footerText: string | null;
@@ -42057,6 +42059,7 @@ export type UpdateAppearanceSettingsData = {
         logoDark?: string | null;
         favicon?: string | null;
         iconLogo?: string | null;
+        iconLogoDark?: string | null;
         appName?: string | null;
         ogDescription?: string | null;
         footerText?: string | null;
@@ -42195,6 +42198,7 @@ export type UpdateAppearanceSettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -42341,6 +42345,7 @@ export type UpdateSecuritySettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -42490,6 +42495,7 @@ export type UpdateLlmSettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -42638,6 +42644,7 @@ export type UpdateAgentSettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -42793,6 +42800,7 @@ export type UpdateConnectionSettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -42939,6 +42947,7 @@ export type UpdatePresetEntityNameResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -43085,6 +43094,7 @@ export type UpdateAuthSettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -43233,6 +43243,7 @@ export type UpdateKnowledgeSettingsResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -43376,6 +43387,7 @@ export type DropEmbeddingConfigResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;
@@ -43608,6 +43620,7 @@ export type CompleteOnboardingResponses = {
         chatPlaceholders: Array<string> | null;
         animateChatPlaceholders: boolean;
         iconLogo: string | null;
+        iconLogoDark: string | null;
         chatErrorSupportMessage: string | null;
         slimChatErrorUi: boolean;
         showTwoFactor: boolean;

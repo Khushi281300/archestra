@@ -336,6 +336,7 @@ export function useUpdateAppearanceSettings(
         logoDark: updatedOrganization.logoDark,
         favicon: updatedOrganization.favicon,
         iconLogo: updatedOrganization.iconLogo,
+        iconLogoDark: updatedOrganization.iconLogoDark,
         appName: updatedOrganization.appName,
         ogDescription: updatedOrganization.ogDescription,
         footerText: updatedOrganization.footerText,
